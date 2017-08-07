@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F51DCCB01F37EA12003BD035 /* download.c in Sources */ = {isa = PBXBuildFile; fileRef = F51DCCAF1F37EA12003BD035 /* download.c */; };
+		F51DCD271F37F20D003BD035 /* bulkloop.hex in Resources */ = {isa = PBXBuildFile; fileRef = F51DCD261F37F20D003BD035 /* bulkloop.hex */; };
+		F51DCD321F37F24C003BD035 /* bulkloop.hex in CopyFiles */ = {isa = PBXBuildFile; fileRef = F51DCD261F37F20D003BD035 /* bulkloop.hex */; };
+		F55EFB111F3550A600C10C35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F91E3147F677D000CF0E6 /* main.m */; };
+		F55EFB121F3550A600C10C35 /* Bulkloop_Cocoa_AppsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F91E9147F677D000CF0E6 /* Bulkloop_Cocoa_AppsAppDelegate.m */; };
+		F55EFB131F3550A600C10C35 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F9210147F6FFE000CF0E6 /* AppController.m */; };
+		F55EFB151F3550A600C10C35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9F91D6147F677D000CF0E6 /* Cocoa.framework */; };
+		F55EFB161F3550A600C10C35 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F507D0011824E26400B946E8 /* IOKit.framework */; };
+		F55EFB181F3550A600C10C35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC9F91DF147F677D000CF0E6 /* InfoPlist.strings */; };
+		F55EFB191F3550A600C10C35 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AC9F91E5147F677D000CF0E6 /* Credits.rtf */; };
+		F55EFB1A1F3550A600C10C35 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9F91EB147F677E000CF0E6 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F51DCD331F37F26A003BD035 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				F51DCD321F37F24C003BD035 /* bulkloop.hex in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC9F91D6147F677D000CF0E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AC9F91D9147F677D000CF0E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AC9F91DB147F677D000CF0E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC9F91DE147F677D000CF0E6 /* Bulkloop_Cocoa_Apps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bulkloop_Cocoa_Apps-Info.plist"; sourceTree = "<group>"; };
+		AC9F91E0147F677D000CF0E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC9F91E2147F677D000CF0E6 /* Bulkloop_Cocoa_Apps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bulkloop_Cocoa_Apps-Prefix.pch"; sourceTree = "<group>"; };
+		AC9F91E3147F677D000CF0E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC9F91E6147F677D000CF0E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AC9F91E8147F677D000CF0E6 /* Bulkloop_Cocoa_AppsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bulkloop_Cocoa_AppsAppDelegate.h; sourceTree = "<group>"; };
+		AC9F91E9147F677D000CF0E6 /* Bulkloop_Cocoa_AppsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bulkloop_Cocoa_AppsAppDelegate.m; sourceTree = "<group>"; };
+		AC9F91EC147F677E000CF0E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC9F920F147F6FFE000CF0E6 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		AC9F9210147F6FFE000CF0E6 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		F507D0011824E26400B946E8 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		F51DCCAE1F37EA12003BD035 /* download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = download.h; sourceTree = "<group>"; };
+		F51DCCAF1F37EA12003BD035 /* download.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = download.c; sourceTree = "<group>"; };
+		F51DCD261F37F20D003BD035 /* bulkloop.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bulkloop.hex; sourceTree = "<group>"; };
+		F55EFB1E1F3550A600C10C35 /* Bulkloop_Cocoa_Apps_IOUSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bulkloop_Cocoa_Apps_IOUSB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F55EFB141F3550A600C10C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55EFB151F3550A600C10C35 /* Cocoa.framework in Frameworks */,
+				F55EFB161F3550A600C10C35 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9F91C7147F677D000CF0E6 = {
+			isa = PBXGroup;
+			children = (
+				AC9F91DC147F677D000CF0E6 /* Bulkloop_Cocoa_Apps */,
+				AC9F91D5147F677D000CF0E6 /* Frameworks */,
+				AC9F91D3147F677D000CF0E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9F91D3147F677D000CF0E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55EFB1E1F3550A600C10C35 /* Bulkloop_Cocoa_Apps_IOUSB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9F91D5147F677D000CF0E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC9F91D6147F677D000CF0E6 /* Cocoa.framework */,
+				AC9F91D8147F677D000CF0E6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC9F91D8147F677D000CF0E6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F507D0011824E26400B946E8 /* IOKit.framework */,
+				AC9F91D9147F677D000CF0E6 /* AppKit.framework */,
+				AC9F91DB147F677D000CF0E6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AC9F91DC147F677D000CF0E6 /* Bulkloop_Cocoa_Apps */ = {
+			isa = PBXGroup;
+			children = (
+				AC9F91E8147F677D000CF0E6 /* Bulkloop_Cocoa_AppsAppDelegate.h */,
+				AC9F91E9147F677D000CF0E6 /* Bulkloop_Cocoa_AppsAppDelegate.m */,
+				AC9F920F147F6FFE000CF0E6 /* AppController.h */,
+				AC9F9210147F6FFE000CF0E6 /* AppController.m */,
+				F51DCCAE1F37EA12003BD035 /* download.h */,
+				F51DCCAF1F37EA12003BD035 /* download.c */,
+				AC9F91EB147F677E000CF0E6 /* MainMenu.xib */,
+				AC9F91DD147F677D000CF0E6 /* Supporting Files */,
+			);
+			path = Bulkloop_Cocoa_Apps;
+			sourceTree = "<group>";
+		};
+		AC9F91DD147F677D000CF0E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F51DCD261F37F20D003BD035 /* bulkloop.hex */,
+				AC9F91DE147F677D000CF0E6 /* Bulkloop_Cocoa_Apps-Info.plist */,
+				AC9F91DF147F677D000CF0E6 /* InfoPlist.strings */,
+				AC9F91E2147F677D000CF0E6 /* Bulkloop_Cocoa_Apps-Prefix.pch */,
+				AC9F91E3147F677D000CF0E6 /* main.m */,
+				AC9F91E5147F677D000CF0E6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F55EFB0F1F3550A600C10C35 /* Bulkloop_Cocoa_Apps_IOUSB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55EFB1B1F3550A600C10C35 /* Build configuration list for PBXNativeTarget "Bulkloop_Cocoa_Apps_IOUSB" */;
+			buildPhases = (
+				F55EFB101F3550A600C10C35 /* Sources */,
+				F55EFB141F3550A600C10C35 /* Frameworks */,
+				F55EFB171F3550A600C10C35 /* Resources */,
+				F51DCD331F37F26A003BD035 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bulkloop_Cocoa_Apps_IOUSB;
+			productName = Bulkloop_Cocoa_Apps;
+			productReference = F55EFB1E1F3550A600C10C35 /* Bulkloop_Cocoa_Apps_IOUSB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9F91C9147F677D000CF0E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Cypress Semiconductior";
+			};
+			buildConfigurationList = AC9F91CC147F677D000CF0E6 /* Build configuration list for PBXProject "Bulkloop_Cocoa_Apps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC9F91C7147F677D000CF0E6;
+			productRefGroup = AC9F91D3147F677D000CF0E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F55EFB0F1F3550A600C10C35 /* Bulkloop_Cocoa_Apps_IOUSB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F55EFB171F3550A600C10C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55EFB181F3550A600C10C35 /* InfoPlist.strings in Resources */,
+				F55EFB191F3550A600C10C35 /* Credits.rtf in Resources */,
+				F55EFB1A1F3550A600C10C35 /* MainMenu.xib in Resources */,
+				F51DCD271F37F20D003BD035 /* bulkloop.hex in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F55EFB101F3550A600C10C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55EFB111F3550A600C10C35 /* main.m in Sources */,
+				F55EFB121F3550A600C10C35 /* Bulkloop_Cocoa_AppsAppDelegate.m in Sources */,
+				F55EFB131F3550A600C10C35 /* AppController.m in Sources */,
+				F51DCCB01F37EA12003BD035 /* download.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC9F91DF147F677D000CF0E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9F91E0147F677D000CF0E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC9F91E5147F677D000CF0E6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9F91E6147F677D000CF0E6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AC9F91EB147F677E000CF0E6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9F91EC147F677E000CF0E6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9F91EE147F677E000CF0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC9F91EF147F677E000CF0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F55EFB1C1F3550A600C10C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bulkloop_Cocoa_Apps/Bulkloop_Cocoa_Apps-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Bulkloop_Cocoa_Apps/Bulkloop_Cocoa_Apps-Info.plist";
+				OTHER_CFLAGS = "-DUSE_IOUSB";
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "x86_64 i386 ppc ppc64 ppc7400 ppc970";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F55EFB1D1F3550A600C10C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bulkloop_Cocoa_Apps/Bulkloop_Cocoa_Apps-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = "Bulkloop_Cocoa_Apps/Bulkloop_Cocoa_Apps-Info.plist";
+				OTHER_CFLAGS = "-DUSE_IOUSB";
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "x86_64 i386 ppc ppc64 ppc7400 ppc970";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9F91CC147F677D000CF0E6 /* Build configuration list for PBXProject "Bulkloop_Cocoa_Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9F91EE147F677E000CF0E6 /* Debug */,
+				AC9F91EF147F677E000CF0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55EFB1B1F3550A600C10C35 /* Build configuration list for PBXNativeTarget "Bulkloop_Cocoa_Apps_IOUSB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55EFB1C1F3550A600C10C35 /* Debug */,
+				F55EFB1D1F3550A600C10C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9F91C9147F677D000CF0E6 /* Project object */;
+}

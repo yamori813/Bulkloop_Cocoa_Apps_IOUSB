@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Bulkloop_Cocoa_Apps' target in the 'Bulkloop_Cocoa_Apps' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
