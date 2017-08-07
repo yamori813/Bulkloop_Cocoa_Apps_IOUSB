@@ -279,7 +279,7 @@
 				GCC_PREFIX_HEADER = "Bulkloop_Cocoa_Apps/Bulkloop_Cocoa_Apps-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Bulkloop_Cocoa_Apps/Bulkloop_Cocoa_Apps-Info.plist";
-				OTHER_CFLAGS = "-DUSE_IOUSB";
+				OTHER_CFLAGS = "";
 				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "x86_64 i386 ppc ppc64 ppc7400 ppc970";
@@ -301,7 +301,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				"HEADER_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_FILE = "Bulkloop_Cocoa_Apps/Bulkloop_Cocoa_Apps-Info.plist";
-				OTHER_CFLAGS = "-DUSE_IOUSB";
+				OTHER_CFLAGS = "";
 				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "x86_64 i386 ppc ppc64 ppc7400 ppc970";
