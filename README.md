@@ -1,4 +1,4 @@
-This is Cypress EZ-USB FX2 test probram.
+This is Cypress EZ-USB FX2 test program.
 
 This code base on AN74505 by Cypress.
 
