@@ -581,12 +581,14 @@ void WriteCompletion(void *refCon, IOReturn result, void *arg0)
 		return str;		
 	} else {
 #ifndef USE_ASYNC_IO
+		UInt32 noDataTimeout = 50;
+		UInt32 completiomTimeout = 500;
 		numBytesRead = len;
-		kr = (*intf)->ReadPipe(intf, pipeRef, data1, &numBytesRead);
+		kr = (*intf)->ReadPipeTO(intf, pipeRef, data1, &numBytesRead, noDataTimeout, completiomTimeout);
 		if (kIOReturnSuccess != kr)
 		{
-			(void) (*intf)->USBInterfaceClose(intf);
-			(void) (*intf)->Release(intf);
+//			(void) (*intf)->USBInterfaceClose(intf);
+//			(void) (*intf)->Release(intf);
 			return [NSString stringWithFormat:@"unable to do bulk read (%08x)\n", kr];
 		}
 		
